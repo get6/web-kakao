@@ -1,0 +1,23 @@
+{
+  "name": "Kakaotalk",
+  "version": "1.0",
+  "description": "Thanks to provide kakaotalk API. I just want to release official kakaotalk on chrome extensions! In some case I can't install kakaotalk program on my computer. So I decided to make it",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "browser_action": {
+    
+  },
+  "icons": {
+    "16": "./kakaolink_btn/kakaolink_btn_medium.png",
+    "48": "./kakaolink_btn/kakaolink_btn_medium.png",
+    "128": "./kakaolink_btn/kakaolink_btn_medium.png"
+  }
+}
