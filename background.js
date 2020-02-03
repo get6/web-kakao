@@ -22,7 +22,4 @@ chrome.runtime.onInstalled.addListener(function () {
     chrome.pageAction.show(sender.tab.id);
     chrome.pageAction.setTitle({tabId: sender.tab.id, title: req.address});
   });
-
-  chrome.browserAction.setBadgeText({text: 'ON'});
-  chrome.browserAction.setBadgeBackgroundColor({color: '#4688F1'});
 });

@@ -9,15 +9,15 @@
     ],
     "persistent": false
   },
-  "page_action": {
-    "default_popup": "popup.html"
-  },
   "browser_action": {
-    
+    "default_popup": "./popup.html"
   },
   "icons": {
     "16": "./kakaolink_btn/kakaolink_btn_medium.png",
     "48": "./kakaolink_btn/kakaolink_btn_medium.png",
     "128": "./kakaolink_btn/kakaolink_btn_medium.png"
-  }
+  },
+  "permissions": [
+    "activeTab", "http://*/*", "https://*/*"
+  ]
 }
